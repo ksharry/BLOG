@@ -1,0 +1,211 @@
+/**
+ * CSS Styles for code highlighting.
+ * Feel free to customize token styles 
+ * by copying from a prismjs compatible theme:
+ * https://github.com/PrismJS/prism-themes
+ */
+
+/* Code title styles */
+.remark-code-title {
+  @reference rounded-t bg-gray-700 px-5 py-3 font-mono text-sm font-bold text-gray-200 dark:bg-gray-800;
+}
+
+.remark-code-title + div > pre {
+  @reference mt-0 rounded-t-none;
+}
+
+/* Code block styles */
+.code-highlight {
+  @reference float-left min-w-full;
+}
+
+.code-line {
+  @reference -mx-4 block border-l-4 border-transparent pr-4 pl-4;
+}
+
+.code-line.inserted {
+  @reference bg-opacity-20 bg-green-500;
+}
+
+.code-line.deleted {
+  @reference bg-opacity-20 bg-red-500;
+}
+
+.highlight-line {
+  @reference border-primary-500 bg-opacity-50 -mx-4 border-l-4 bg-gray-700;
+}
+
+.line-number::before {
+  @reference mr-4 -ml-2 inline-block w-4 text-right text-gray-400;
+  content: attr(line);
+}
+
+/* Token styles */
+/* Nord Theme Originally by Arctic Ice Studio
+ * https://nordtheme.com
+ *
+ * Ported for PrismJS by Zane Hitchcoxc (@zwhitchcox) and Gabriel Ramos (@gabrieluizramos)
+ */
+
+code[class*='language-'],
+pre[class*='language-'] {
+  color: #cad3f5;
+  background: none;
+  font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+  background: #1e2030;
+}
+
+/* Inline code */
+:not(pre) > code[class*='language-'] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.keyword {
+  color: #c6a0f6;
+}
+
+.token.builtin {
+  color: #ed8796;
+}
+
+.token.class-name {
+  color: #eed49f;
+}
+
+.token.function {
+  color: #8aadf4;
+}
+
+.token.boolean,
+.token.number {
+  color: #f5a97f;
+}
+
+.token.string,
+.token.char {
+  color: #a6da95;
+}
+
+.token.symbol {
+  color: #eed49f;
+}
+
+.token.regex {
+  color: #f5bde6;
+}
+
+.token.url {
+  color: #a6da95;
+}
+
+.token.operator {
+  color: #91d7e3;
+}
+
+.token.variable {
+  color: #cad3f5;
+}
+
+.token.constant {
+  color: #f5a97f;
+}
+
+.token.property {
+  color: #8aadf4;
+}
+
+.token.punctuation {
+  color: #939ab7;
+}
+
+.token.important {
+  color: #c6a0f6;
+}
+
+.token.comment {
+  color: #939ab7;
+}
+
+.token.tag {
+  color: #8aadf4;
+}
+
+.token.attr-name {
+  color: #eed49f;
+}
+
+.token.attr-value {
+  color: #a6da95;
+}
+
+.token.namespace {
+  color: #eed49f;
+}
+
+.token.prolog,
+.token.doctype {
+  color: #c6a0f6;
+}
+
+.token.cdata {
+  color: #8bd5ca;
+}
+
+.token.entity {
+  color: #ed8796;
+}
+
+.token.atrule {
+  color: #c6a0f6;
+}
+
+.token.selector {
+  color: #8aadf4;
+}
+
+/* Diff */
+
+.token.deleted {
+  color: #ed8796;
+}
+
+.token.inserted {
+  color: #a6da95;
+}
+
+/* Other */
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
