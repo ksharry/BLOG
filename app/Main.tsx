@@ -10,13 +10,35 @@ export default function Home({ posts }) {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
-            Latest
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
+        <div className="my-6 flex flex-col items-center gap-x-12 xl:mb-12 xl:flex-row">
+          <div className="pt-6">
+            <h1 className="pb-6 text-3xl leading-9 font-bold tracking-tight text-gray-700 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14 dark:text-gray-300">
+              Hi, I'm Harry!
+            </h1>
+            <h2 className="w-3/4 text-lg text-gray-600 dark:text-gray-400">
+              作為一名長期專注於 ERP 領域的顧問與技術，我熟悉從傳統 TIPTOP 到現代 Odoo 的系統脈絡。
+              <br />
+              <br />
+              為了將這些實戰經驗傳承下去，我完成了兩屆 iThome 鐵人賽的挑戰，並將心得集結出版為《顧問教你做 - Odoo 在台教戰手冊》。
+              <br />
+              <br />
+              這個網站記錄了我參與過的各類{' '}
+              <Link
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                href="/projects"
+              >
+                專案
+              </Link>{' '}
+              與技術{' '}
+              <Link
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                href="/blog"
+              >
+                文章
+              </Link>{' '}
+              ，歡迎你隨意瀏覽，一同交流。
+            </h2>
+          </div>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}

@@ -7,22 +7,16 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: '30 Days of ML',
-    description: `A comprehensive 30-day journey through Machine Learning concepts, from basics to advanced topics.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://github.com/ksharry/30-Days-Of-ML_FN',
+    title: 'ODOO16社群版-ERP使用手冊',
+    description: `這是2023年 iThome 鐵人賽系列文章，詳細介紹了 Odoo 16 社群版的操作與使用，幫助使用者快速上手 ERP 系統。`,
+    imgSrc: '/static/images/ithome.jpg',
+    href: 'https://ithelp.ithome.com.tw/users/20161788/ironman/5957',
   },
   {
-    title: 'Odoo Release Notes',
-    description: `Summaries and updates for Odoo versions 17, 18, and 19.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: 'https://github.com/ksharry/Odoo-Release-Notes',
-  },
-  {
-    title: '30 Days TOEIC Gold',
-    description: `A 30-day course plan to achieve a golden certificate in TOEIC.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://github.com/ksharry/30-Days-TOEIC-Gold',
+    title: '做模組 × 畫地圖：30 天在地化會計模組的挑戰',
+    description: `這是2025年 iThome 鐵人賽系列文章，專注於 Odoo 在地化會計模組的開發與實踐，深入探討在地化需求的解決方案。`,
+    imgSrc: '/static/images/ithome.jpg',
+    href: 'https://ithelp.ithome.com.tw/users/20161788/ironman/8455',
   },
 ]
 
