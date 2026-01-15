@@ -16,27 +16,30 @@ export default function Home({ posts }) {
               Hi, I'm Harry!
             </h1>
             <h2 className="w-3/4 text-lg text-gray-600 dark:text-gray-400">
-              作為一名長期專注於 ERP 領域的顧問與技術，我熟悉從傳統 TIPTOP 到現代 Odoo 的系統脈絡。
+              我期望自己是一位登山者。我相信每一次的攀登，都是一場與知識的對話；而恐懼與風險，不過是因為我們尚未看清前方的路。
               <br />
               <br />
-              為了將這些實戰經驗傳承下去，我完成了兩屆 iThome 鐵人賽的挑戰，並將心得集結出版為《顧問教你做 - Odoo 在台教戰手冊》。
+              在 ERP 的群山中，我擁有從 TIPTOP 到 Odoo 的完整攀登經驗。我不畏懼新技術的陡峭，因為我深知只要透徹理解、掌握脈絡，險峻的山稜也能成為絕佳的展望台。
               <br />
               <br />
-              這個網站記錄了我參與過的各類{' '}
+              為了消除大家對於 ERP 的陌生與不安，我曾將多年的引路經驗透過 iThome 鐵人賽分享我的路徑，並集結成《顧問教你做 - Odoo 在台教戰手冊》。
+              <br />
+              <br />
+              歡迎來到我的基地營。這裡記錄我過往經驗的{' '}
               <Link
                 className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                 href="/projects"
               >
                 專案
               </Link>{' '}
-              與技術{' '}
+              與{' '}
               <Link
                 className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                 href="/blog"
               >
-                文章
+                技術文章
               </Link>{' '}
-              ，歡迎你隨意瀏覽，一同交流。
+              ，有些不務正業的專案，歡迎你隨意瀏覽，一同交流。
             </h2>
           </div>
         </div>
